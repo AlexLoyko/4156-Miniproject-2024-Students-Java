@@ -1,0 +1,2 @@
+Only consulted the PMD docs:
+https://pmd.github.io/
