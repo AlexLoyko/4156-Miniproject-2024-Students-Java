@@ -1,3 +1,11 @@
-# Welcome Students of 4156
+# Oleksandr Loyko's Individual Project Part 1
 
-Please follow the assignment specifications on Courseworks when completing this project.
+1. In the root of the repo, please find the following .txt files:
+    * bugs.txt - documentation of all the bugs found and fixed
+    * citations.txt - documented the resources I consulted when completing the assignment
+    * honesty.txt - Honesty Pledge
+
+2. To run the PMD analyzer, navigate to the `IndividualProject` directory within the repo and run the following command:
+   ```
+    pmd check -d ./src -R rulesets/java/quickstart.xml -f text
+   ```
